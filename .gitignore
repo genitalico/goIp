@@ -1,0 +1,48 @@
+# Ignorar archivos binarios y ejecutables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignorar archivos generados por go
+*.test
+*.out
+*.prof
+
+# Ignorar el directorio bin
+/bin/
+
+# Ignorar el directorio build
+/build/
+
+# Ignorar el directorio vendor (si no estás usando módulos)
+/vendor/
+
+# Ignorar archivos de caché
+.cache/
+*.log
+
+# Ignorar archivos de respaldo
+*~
+.#*
+
+# Ignorar el directorio .vscode (si estás usando Visual Studio Code)
+.vscode/
+
+# Ignorar el archivo de configuración del editor
+.editorconfig
+
+# Ignorar archivos de configuración de Jetbrains IDEs
+.idea/
+*.iml
+*.iws
+
+# Ignorar archivos de configuración de Visual Studio
+.vs/
+*.suo
+*.sln
+*.vcxproj
+*.vcxproj.filters
+settings.json
+data.txt
+log.txt
